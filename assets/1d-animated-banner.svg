@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">One Direction forever</title>
+  <desc id="desc">Banner animado em cores pop, com estrelas girando e uma faixa rosa deslizante.</desc>
+  <rect width="1200" height="300" rx="28" fill="#18131c"/>
+  <circle cx="1080" cy="55" r="125" fill="#d9ff59"/>
+  <circle cx="110" cy="270" r="150" fill="#6de6ed"/>
+  <g fill="#ff4f9a">
+    <path d="M250 26l13 31 34 2-26 22 9 33-30-18-30 18 9-33-26-22 34-2z">
+      <animateTransform attributeName="transform" type="rotate" from="0 250 70" to="360 250 70" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M890 205l11 26 29 2-22 19 7 28-25-15-25 15 7-28-22-19 29-2z">
+      <animateTransform attributeName="transform" type="rotate" from="0 890 250" to="-360 890 250" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="600" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="76" font-weight="900" letter-spacing="2" fill="#fff5df">ONE DIRECTION</text>
+  <rect x="295" y="160" width="610" height="65" rx="12" fill="#ff4f9a">
+    <animate attributeName="x" values="295;310;295" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="600" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#18131c">FIVE VOICES · ONE DIRECTION · FOREVER</text>
+  <text x="150" y="70" font-family="Arial,sans-serif" font-size="30" fill="#fff5df">✦</text>
+  <text x="1020" y="235" font-family="Arial,sans-serif" font-size="34" fill="#18131c">★</text>
+</svg>
